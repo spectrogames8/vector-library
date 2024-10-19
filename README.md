@@ -1,2 +1,2 @@
 # vector-library
-A library in C that creates and changes vectors.
+A library in C thats used to create and manipulate dynamic vectors.
