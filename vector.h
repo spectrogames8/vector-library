@@ -8,6 +8,14 @@ typedef enum {
     TYPE_CHAR
 } VectorType;
 
-void* vector(VectorType type, int size);
+typedef struct {
+    void* array;
+    int size;
+    int capacity;
+    VectorType type;
+} Vector;
+
+Vector vector(VectorType type, int size);
+void vector_insert(Vector* array, void* item, int index);
 
 #endif
